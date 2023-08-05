@@ -1,0 +1,23 @@
+# Message queue: The message queue acts as a buffer between the sending and receiving applications, where(message queue) messages are added to the queue by the sending application, and then retrieved from the queue by the receiving application that allows sender&receiver to run independently of each other and asynchronously.
+# Message broker: A message broker is an intermediary computer program that facilitates the exchange of messages between sender&receiver (applications, systems, and services).
+    > Some of the facilities that message borker facilitates are:
+        - message queuing,
+        - message persistence between sender&receiver,
+        - support for a variety of messaging protocols.
+        - translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver.
+        - allows linked systems to communicate directly, even if they're built using different technologies, deployed on separate platforms, or use distinct messaging protocols.
+        - ensure message flows between different systems.
+# Distributed Message Broker: Distributed across multiple nodes, typically in a cluster configuration. This allows for better scalability, fault tolerance, and performance, as messages can be processed by multiple nodes in parallel.
+# RabbitMQ: open source distributed message broker
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# RabbitMQ:
+    - open source distributed message broker that implements AMQP.
+    - AMQP standarizes messaging using Producers, Brocker and Consumer.
+    - Message broker facilitates message queuing which increases loose coupling, persistence and scalability.
+    - 
+
+# Reference:
+    - https://www.youtube.com/watch?v=deG25y_r6OY&ab_channel=BernhardWenzelTraining
+    - 

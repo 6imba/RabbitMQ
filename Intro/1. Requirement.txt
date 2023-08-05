@@ -1,0 +1,53 @@
+Q. What is Distributed Messaging System ?
+    - Distributed Messaging System does Distributed messaging.
+    - Distributed messaging is based on the concept of reliable message queuing.
+    - Messages are queued asynchronously between client applications and messaging systems.
+
+Q. What is Distributed Message Broker ?
+    - Message brokers, also known as message queue (MQ) software
+    - It is commonly used in systems like web services when they need to communicate between different components(microservices) in an application
+    - Message brokers can act as a distributed communications layer, connecting services on various platforms.
+
+Q. What is Message broker?
+    - A message broker is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver.
+    - A message broker is software that facilitates the exchange of messages between applications, systems, and services.
+    - It allows linked systems to communicate directly, even if they're built using different technologies, deployed on separate platforms, or use distinct messaging protocols.
+    - Is message broker a middleware?
+    - Message brokers are software modules within messaging middleware or message-oriented middleware (MOM) solutions
+
+# Terms:
+    - Message broker
+    - Message queue
+    - Message bus
+    - Queued asynchronously
+    - decouple, lose coupling, scalability, persistence.
+
+Q. What is message queue and message broker?
+    - Message queues provide a means for applications to push information to the queue. The message broker simply takes the information from the sender, translates it between different messaging protocols, if needed, and delivers the message to the correct receiver.
+
+Q. What is Message queue?
+    - A message queue is a data structure.
+    - The message queue acts as a buffer between the sending and receiving applications.
+    - The message queue allows sender&receiver to run independently of each other and asynchronously.
+    - Messages are added to the queue by the sending application, and then retrieved from the queue by the receiving application.
+    - A message queue is a data structure or a service that allows applications or systems to communicate with each other by exchanging messages. The message queue acts as a buffer between the sending and receiving applications, allowing them to run independently of each other and asynchronously. Messages are added to the queue by the sending application, and then retrieved from the queue by the receiving application. This decouples the sending and receiving applications, allowing them to evolve independently, and also allows for buffering and load leveling. Message queues can be implemented in a number of different ways, including in-memory queues, disk-based queues, or distributed queues, and different messaging protocols can be used, such as AMQP, JMS, and MQTT.
+
+Q. What is Message broker?
+    - A message broker is a software component that facilitates the communication between different applications or systems by acting as an intermediary. The message broker receives messages from the sending applications, routes them to the appropriate receiving application, and then sends a response back to the sender. By providing a buffer and routing functionality, message brokers allow for decoupling between the sending and receiving applications, allowing them to evolve independently, and also allowing for buffering and load leveling.
+    - Message brokers typically provide features such as message persistence, guaranteed delivery, and support for a variety of messaging protocols. They also can handle multiple message patterns like request-response, publish-subscribe and event-driven patterns. Some of the well-known open source message brokers are Apache Kafka, RabbitMQ, and ActiveMQ.
+    - Additionally, some of the message brokers also provides additional functionality such as data transformation, message filtering, and message routing based on content, which allows for more complex message flows between different systems.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Message queue: The message queue acts as a buffer between the sending and receiving applications, where(message queue) messages are added to the queue by the sending application, and then retrieved from the queue by the receiving application that allows sender&receiver to run independently of each other and asynchronously.
+# Message broker: A message broker is an intermediary computer program that facilitates the exchange of messages between sender&receiver (applications, systems, and services).
+    > Some of the facilities that message borker facilitates are:
+        - message queuing,
+        - message persistence between sender&receiver,
+        - support for a variety of messaging protocols.
+        - translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver.
+        - allows linked systems to communicate directly, even if they're built using different technologies, deployed on separate platforms, or use distinct messaging protocols.
+        - ensure message flows between different systems.
+# Distributed Message Broker: Distributed across multiple nodes, typically in a cluster configuration. This allows for better scalability, fault tolerance, and performance, as messages can be processed by multiple nodes in parallel.
+# RabbitMQ: open source distributed message broker
+
